@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "tests_run": 26,
+  "tests_failed": 0,
+  "tests_errors": 0,
+  "tests_skipped": 0,
+  "repeated_stages": [
+    "mdef.py",
+    "dimr.py",
+    "train.py",
+    "test.py"
+  ],
+  "data_run_id": "4a1958f16b229eaa79160f362d7bd67580ca86ed474409fc3034a7a059322728",
+  "originals_unchanged_sha256": {
+    "class1.csv": "9920df3d11e5906c922bb05ab99394182950ce1037a3331efd25494870b324dc",
+    "class2.csv": "f05669f8452980ec8242daf91260954261673bb80b6317b3a49d0627d63ee745",
+    "class3.csv": "fd65bb613a9eacb6d3d9dd800f0901d6f052e05f4f6d616a8b94fa2a3b1dc248",
+    "class4.csv": "4300bf30ec57513315a911cb091a9bfdaa47d12d8e7dfe0499c9a312b26ced85",
+    "FormatData.pdf": "e714a41a527bf6da76c6b0d58395f0a552b91aaa7392bab8ca2db551b12c22f4"
+  },
+  "reproduced_files_sha256": {
+    "dfeatures.csv": "454e0527a4ae1058e9268c53f3bcde5b691d642b810c99b1cea87acd9daa879d",
+    "dclass.csv": "ee3c9cb46857585da8cb9f78d48923af189f77284d53cc3240dabbe58e186312",
+    "dtrain": "eaeed8e089d04f8f7e7cab298fcec6d29740d9ca4f7b09a5e66bb5b9b106154d",
+    "dtest": "8d02c03a57720ca696e561ad980be24f0da60e8ee00e88c201c0409248b5caa2",
+    "pesos": "093ccd813cf6fe93ef04c2b9d3157e24ab97470b2de14506b62a33f7d07edd8d",
+    "pesoftmax": "9e4779f9eee04f2015e54cf7f5817ecf02467a9e442fedaa211801b188d19720",
+    "costo": "78040cc9b6731b7d62d5fe29b2abcb34a41dd743fe1404c6e6f660aa164bf290",
+    "Resultados/fscores.csv": "764edde53d8b784bc7f5333ff3b60b53e6c001ac5126dc37111c60986001d44f",
+    "Resultados/grafica_costo.png": "7d31e2fb6921ba15365bbdf764f7114e8157ad5f04b72bc79c9add07794a9f7f",
+    "Resultados/grafica_reconstruccion.png": "ac58c75e6d2c49a4de1aaee4dd3c549eabb55e2ffa7e0fbbb9b15a1823411c87",
+    "Resultados/matriz_confusion.csv": "ee9bc4b32a108f2486a5113c1033d8324c742ab880fc335937d90074c81909ca",
+    "Resultados/matriz_confusion.png": "0a92bb401a7a73d523b55ecd5087617e9d02ea0e2b70110a2c4f26936ada64ac",
+    "Resultados/metricas.json": "aecd7987d6cae56e03387b31d30e843c42134b2a8959b879f4e5865bb82103db",
+    "Resultados/predicciones.csv": "96e305bf2bc8ef3322478b698e433b3a3adeb2718b691576e896b23dc44e4090",
+    "Resultados/varianza_pca.png": "7e3bb127e3893a9d9b94a59571f2ef8db2c76c181471b0893705c70ab268befe"
+  },
+  "fresh_process_inference_without_training_data": true,
+  "independent_working_directory": true
+}
